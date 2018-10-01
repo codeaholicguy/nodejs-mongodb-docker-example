@@ -1,5 +1,5 @@
-const {config} = require('dotenv')
+const { config } = require('dotenv');
 
-config()
+config();
 
-exports.MONGO_URL = process.env.MONGO_URL || ''
+exports.MONGO_URL = process.env.MONGO_URL || '';
